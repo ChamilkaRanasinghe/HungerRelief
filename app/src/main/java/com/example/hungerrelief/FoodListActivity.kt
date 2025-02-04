@@ -12,14 +12,8 @@ class FoodListActivity : AppCompatActivity() {
 
         val addFoodButton = findViewById<Button>(R.id.addFoodButton)
         addFoodButton.setOnClickListener {
-            // Open Food Donation Form
             val intent = Intent(this, FoodFormActivity::class.java)
             startActivity(intent)
         }
     }
 }
-
-class FoodFormActivity {
-
-}
-

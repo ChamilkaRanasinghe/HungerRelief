@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="foodName" type="id" />
+    <item name="expiryDate" type="id" />
+    <item name="submitFoodButton" type="id" />
+</resources>
