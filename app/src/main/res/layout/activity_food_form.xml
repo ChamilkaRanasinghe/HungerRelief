@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="food_name"
+        android:hint="@string/enter_food_name"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/expiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="expireDate"
+        android:hint="@string/enter_expiry_date"
+        android:inputType=""
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/submitFoodButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_donation" />
+</LinearLayout>
