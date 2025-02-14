@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.HungerRelief" parent="Base.Theme.HungerRelief" />
+
+    <!-- Dark theme -->
+    <style name="Base.Theme.HungerRelief.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
 </resources>

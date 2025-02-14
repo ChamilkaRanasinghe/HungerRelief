@@ -1,6 +1,7 @@
 package com.example.hungerrelief
 
 import android.os.Bundle
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -16,15 +17,16 @@ class FoodFormActivity : AppCompatActivity() {
         val submitButton = findViewById<Button>(R.id.submitFoodButton)
 
         submitButton.setOnClickListener {
-            val foodName = foodNameEditText.text.toString()
-            val expiryDate = expiryDateEditText.text.toString()
+            val foodName = foodNameEditText.text.toString().trim()
+            val expiryDate = expiryDateEditText.text.toString().trim()
 
-            if (foodName.isNotEmpty() && expiryDate.isNotEmpty()) {
-                Toast.makeText(this, "Food Donation Submitted!", Toast.LENGTH_SHORT).show()
-                finish() // Go back to Food List
-            } else {
-                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
+            if (foodName.isEmpty() || expiryDate.isEmpty()) {
+                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
+
+            Toast.makeText(this, "Food Donation Submitted!", Toast.LENGTH_SHORT).show()
+            finish()
         }
     }
 }
