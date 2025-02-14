@@ -1,11 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HungerRelief</string>
-    <string name="enter_email">Enter Email</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="login">Login</string>
-    <string name="available_food_donations">Available Food Donations</string>
-    <string name="add_food_donation">Add Food Donation</string>
     <string name="enter_food_name">Enter Food Name</string>
     <string name="enter_expiry_date">Enter Expiry Date</string>
     <string name="submit_donation">Submit Donation</string>
+    <string name="available_food_donations">Available Food Donations</string>
+    <string name="add_food_donation">Add Food Donation</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="signup_text">Don&apos;t have an account? Sign Up</string>
 </resources>

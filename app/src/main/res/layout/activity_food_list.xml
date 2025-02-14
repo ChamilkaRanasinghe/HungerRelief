@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/available_food_donations"
+        android:text="Available Food Donations"
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="center" />
@@ -17,5 +17,5 @@
         android:id="@+id/addFoodButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/add_food_donation" />
+        android:text="Add Food Donation" />
 </LinearLayout>
